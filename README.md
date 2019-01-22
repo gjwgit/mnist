@@ -5,7 +5,7 @@ Starting point for workshop on how to open source an MNIST model with `mlhub`
 
 A user can then install and run the pre-built model. 
 
-`$ pip install mlhub<br/>
- $ ml install MNIST_mlhub<br>
- $ ml configure MNIST_mlhub<br>
- $ ml demo MNIST_mlhub`
+`$ pip install mlhub<br/>`
+`$ ml install MNIST_mlhub<br>`
+`$ ml configure MNIST_mlhub<br>`
+`$ ml demo MNIST_mlhub`
