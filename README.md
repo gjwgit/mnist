@@ -1,4 +1,4 @@
-# MNIST_mlhub
+# Making a model ready for MNIST_mlhub
 Starting point for workshop on how to open source an MNIST model with `mlhub`
 
 `mlhub` packages ML models so they are easily accessed, run, rebuilt and deployed. 
