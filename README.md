@@ -3,9 +3,9 @@ Starting point for workshop on how to open source an MNIST model with `mlhub`
 
 `mlhub` packages ML models so they are easily accessed, run, rebuilt and deployed. 
 
-First, to train the model, run `python model.py`. The output of this training script is a model saved as `best.pth.tar` and a set of weights `metrics_val_best_weights.json`. 
+First, to train an MNIST model, run `python model.py`. The output of this training script is a model checkpoint saved as `best.pth.tar` and a set of weights `metrics_val_best_weights.json`. 
 
-Given this model checkpoint, can we reload the model into a format an end user can get predictions from? 
+Given this model checkpoint, can we package the model into a format an end user can get predictions from? 
 
 If you don't manage to package the model from the checkpoint, `vgg.py` contains an example of how to load a pretrained model stored on aws and use the pretrained model to predict the labels of an image. 
 
