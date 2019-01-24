@@ -64,4 +64,4 @@ img = Variable(img)
 vgg = models.vgg16(pretrained=True)  # This may take a few minutes.
 prediction = vgg(img)  # Returns a Tensor of shape (batch, num class labels)
 prediction = prediction.data.numpy().argmax()  # Our prediction will be the index of the class label with the largest value.
-print labels[prediction]  # Converts the index to a string using our labels dict
+print(labels[prediction])  # Converts the index to a string using our labels dict
