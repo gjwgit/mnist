@@ -1,0 +1,19 @@
+--- # mnist
+meta:
+  name         : mnist
+  title        : Classic digit recognition computer vision model.
+  keywords     : pytourch, dnn, classification, digit recognition
+  version      : 0.0.1
+  languages    : py
+  license      : mit
+  url          : https://github.com/gjwgit/mnist
+dependencies:
+  pip3:
+    - torch
+    - torchvision
+    - numpy==1.13.1
+  files:
+    - vgg.py: demo.py
+    - utils.py 
+commands:
+  demo    : Apply model to a sample dataset and evaluate.
